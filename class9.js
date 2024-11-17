@@ -332,3 +332,5 @@ console.log(sArr3)
 
 
 //Homework, - object, proto, protype, how to iterate object
+
+///////
