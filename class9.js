@@ -223,15 +223,112 @@
 // dev(greet)
 
 
-function primeNumber(n) {
-    for (let i = 2; i < n; i++) {
-        if (n % i === 0) {
-            console.log("This is not a prime number");
-            return;
-        }
-    }
-    console.log("This is a prime number");
+// function primeNumber(n) {
+//     for (let i = 2; i < n; i++) {
+//         if (n % i === 0) {
+//             console.log("This is not a prime number");
+//             return;
+//         }
+//     }
+//     console.log("This is a prime number");
     
-}
+// }
 
-primeNumber(9)
+// primeNumber(9)
+
+
+
+//FUNCTION RETURNING FUNCTION
+
+// function myFunc(){
+//     function hello(){
+//         console.log("Hello world");
+        
+//     }return hello
+// }
+
+// let data = myFunc()
+// data()       //We are treating variable as function now this will print hello world, otherwise by calling only myFunc(), this will return function
+
+
+
+
+
+
+//Array methods
+
+//Map
+
+// let arr= [2,3,4,5,6];
+// let newMapArr = arr.map((val,index,arr) => val*3)
+// console.log(newMapArr);
+
+
+//Filter - it will give you new array
+
+// let arr1= [2,3,4,5,6];
+// let newMapArr = arr1.map((val,index,arr) => val*3)
+// let filteredArr = newMapArr.filter((val,index,arr)=> val>8)
+// console.log(filteredArr);
+
+
+//Reduce method
+
+// let arr1= [2,3,4,5,6];
+// let newMapArr = arr1.map((val,index,arr) => val*3)
+// let filteredArr = newMapArr.filter((val,index,arr)=> val>8)
+// console.log(filteredArr);
+// let ss = filteredArr.reduce((acc,val)=>acc+val)
+// console.log(ss)
+
+
+//Sort method
+
+// let sArr =[9,2,1,13,24,3,6,32]
+// let result = sArr.sort((a,b)=> b-a);
+// console.log(result);
+
+
+// //find method
+
+// let check = sArr.find((val)=>val>10);
+// console.log(check);
+
+
+
+
+//Every method
+
+// let sArr1 =[9,2,1,13,24,3,6,32]
+
+// let res1=sArr1.every((val)=> val>10)
+// console.log(res1)
+
+
+
+//Some method
+
+// let sArr2 =[9,2,1,13,-24,3,6,32]
+
+// let res2=sArr2.some((val)=> val<0)
+// console.log(res2)
+
+
+
+// //Fill method
+
+// let newArr1 = new Array(10).fill(-2,3)
+// console.log(newArr1)
+
+
+
+//Splice
+
+let sArr3 =[9,2,1,13,-24,3,6,32]
+sArr3.splice(2,3,-10,-20)
+
+console.log(sArr3)
+
+
+
+//Homework, - object, proto, protype, how to iterate object
