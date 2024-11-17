@@ -334,3 +334,10 @@ console.log(sArr3)
 //Homework, - object, proto, protype, how to iterate object
 
 ///////
+
+//Splice
+
+let sArr3 =[9,2,1,13,-24,3,6,32]
+sArr3.splice(2,3,-10,-20)
+
+console.log(sArr3)
