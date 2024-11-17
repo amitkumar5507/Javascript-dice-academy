@@ -335,9 +335,3 @@ console.log(sArr3)
 
 ///////
 
-//Splice
-
-let sArr3 =[9,2,1,13,-24,3,6,32]
-sArr3.splice(2,3,-10,-20)
-
-console.log(sArr3)
