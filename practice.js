@@ -366,15 +366,39 @@
 
 //Sorting array in ascending order
 
-let arr= [23,65,2,4,25,9];
+// let arr= [23,65,2,4,25,9];
 
-function sortArray(arr){
-    for(let i=0; i<arr.length; i++){
-        for(let j=0; j<arr.length; j++){
-            if(arr[j]>arr[j+1]){
-                [arr[j],arr[j+1]]= [arr[j+1], arr[j]]
-            }
+// function sortArray(arr){
+//     for(let i=0; i<arr.length; i++){
+//         for(let j=0; j<arr.length; j++){
+//             if(arr[j]>arr[j+1]){
+//                 [arr[j],arr[j+1]]= [arr[j+1], arr[j]]
+//             }
+//         }
+//     }return arr;
+// }
+// console.log(sortArray(arr))
+
+
+
+//Loops
+//while
+
+
+//Note - In while loop first we take a variable then syntax while -> condition -> in curly braces code
+
+//for loop
+
+function primeNumber(n){
+    for(let i=2; i<n; i++){
+        if(n%i ==0){
+            console.log("This is not a prime number")
+            break;
         }
-    }return arr;
+        else{
+            console.log("This is a prime number");
+            break;
+        }
+    }
 }
-console.log(sortArray(arr))
+primeNumber(9)
