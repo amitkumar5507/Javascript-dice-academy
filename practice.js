@@ -389,16 +389,30 @@
 
 //for loop
 
-function primeNumber(n){
-    for(let i=2; i<n; i++){
-        if(n%i ==0){
-            console.log("This is not a prime number")
-            break;
+// function primeNumber(n){
+//     for(let i=2; i<n; i++){
+//         if(n%i ==0){
+//             console.log("This is not a prime number")
+//             break;
+//         }
+//         else{
+//             console.log("This is a prime number");
+//             break;
+//         }
+//     }
+// }
+// primeNumber(9)
+
+
+let arr =[9,8,67,5,4,3,2];
+
+function findMax(arr){
+    max=0;
+    for(let i=0; i<arr.length; i++){
+        if(arr[i]>max){
+            max=arr[i]
         }
-        else{
-            console.log("This is a prime number");
-            break;
-        }
-    }
+    }return max;
 }
-primeNumber(9)
+
+console.log(findMax(arr));

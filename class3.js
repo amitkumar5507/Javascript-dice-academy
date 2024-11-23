@@ -11,7 +11,7 @@
 // let arr =[9,8,67,5,4,3,2];
 // console.log(arr[2])
 
-//Array traverse
+//Array traverse - will give you each value separately in vertical
 
 // for(let i=0; i<arr.length; i++){
 //     console.log(arr[i])
